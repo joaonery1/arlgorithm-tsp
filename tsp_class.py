@@ -5,7 +5,7 @@ class CaixeiroViajante:
         self.initial_city = initial_city
         self.cache = {}
 
-        self.FULL_VISITED = (1 << 4) - 1
+        self.FULL_VISITED = (self.n) - 1
 
     def tsp(self, visited_mask, current_city):
 
